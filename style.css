@@ -5,25 +5,38 @@
 }
 
 body{
-    background: #2B2A33;
+    /* background: #2B2A33; */
     /*#42414d*/
-    color:#fff;
+    
+    justify-items: center;
+    align-items: center;
+    color:black;
     font-family: 'Noto Kufi Arabic', sans-serif;
+
+    background-image: url("./templates.webp");
+    background-size: cover;
+
 }
 
 
 nav{
     text-align: center;
     font-size: 2rem;
-    color: chartreuse;
+    color: black;
     margin-bottom: 5rem;
-    background-color: black;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 section{
+    min-height: 70vh;
     text-align: center;
-    margin:20px 2px;
+    margin:auto;
+}
+
+section ul{
+    margin:auto;
 }
 
 
@@ -39,7 +52,7 @@ section ul li a{
 }
 section ul li a :hover{
     font-weight: bolder;
-    color: white;
+    color: black;
     text-decoration: underline;
 
 }
@@ -51,8 +64,9 @@ section ul {
 
 
 footer{
-    margin-top: 5rem;
+    margin-top: auto;
     text-align: center;
+    font-family: cursive;
     
 }
 
@@ -63,4 +77,5 @@ footer a{
     padding: 2px;
     background-color: whitesmoke;
     border-radius:8% ;
+    
 }
